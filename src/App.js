@@ -1,13 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
-import { Router } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './Pages/Home/Home';
+import Menu from './Pages/Menu/Menu';
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        
-      </Router>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" exact element={<Home />} />
+          <Route path="/broadway/menu" element={<Menu />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
