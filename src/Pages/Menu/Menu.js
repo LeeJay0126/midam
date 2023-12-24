@@ -1,15 +1,20 @@
-import { FaTools } from "react-icons/fa";
 import "./Menu.css";
-
+import Header from "../../SharedComponents/Header";
+import Cutlery from "../../Images/Logos/cutlery.png";
 
 const Menu = () => {
 
     return (
         <section className="Menu">
-            <FaTools className="tempIcon" />
-            <h1 className="tempH1">
-                COMING SOON
-            </h1>
+            <Header />
+            <main>
+                <div className="MenuHeadingContainer">
+                    <h1 className="MenuHeading">
+                        MENU
+                    </h1>
+                    <img className="MenuHeadingIcon" src={Cutlery} alt="Cutlery icon for menu heading" />
+                </div>
+            </main>
         </section>
     );
 };

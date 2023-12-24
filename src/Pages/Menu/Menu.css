@@ -2,23 +2,29 @@
     CSS for Menu
 */
 
-/*Temporary Styling */
-.Menu {
-    height: 100vh;
+.Menu main {
     width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
-.tempIcon {
-    height: 30vh;
-    width: 30vw;
-    color: black;
+/*
+    Menu Heading
+*/
+
+.MenuHeadingContainer {
+    display: flex;
+    gap: 5px;
+    padding-bottom: 28px;
 }
 
-.tempH1 {
-    font-size: 48px;
-    letter-spacing: 2px;
+.MenuHeading {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.MenuHeadingIcon {
+    width: 30px;
+    height: 30px;
 }
