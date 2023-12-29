@@ -2,9 +2,20 @@
     CSS for Menu Item Lists
 */
 
+.MenuItemContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .MenuItemList, .MenuItemListSelected {
-    margin-bottom: 36px;
     padding: 5px 20px 5px 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.MenuItemList {
+    margin-bottom: 36px;
 }
 
 .MenuItemType {
@@ -13,7 +24,49 @@
 }
 
 .MenuItemListSelected{
+    margin-bottom: 23px;
     border-radius: 15px;
     border: 1px solid #979797;
     color: #979797;
+}
+
+.categoryItemsDefault {
+    display: none;
+    transition: all 0.3s;
+}
+
+.categoryItems {
+    margin-bottom: 36px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 13px;
+    column-gap: 26px;
+}
+
+/*
+    CSS for individual menu items
+*/
+
+.MenuTypeComponents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 152px;
+}
+
+.MTCImage {
+    width: 152px;
+    height: 152px;
+    flex-shrink: 0;
+    border-radius: 15px;
+}
+
+.MTCHeading, .MTCPrice {
+    font-size: 15px;
+    text-align: center;
+    line-height: 18px;
+}
+
+.MTCPrice {
+    font-style: italic;
 }

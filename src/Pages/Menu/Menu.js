@@ -9,8 +9,9 @@ const Menu = () => {
     const MenuListings = MenuTypeList.map((types) =>
     (
         <MenuTypeComponents
-            data={types}
-            key={types}
+            menuType={types[0]}
+            data={types[1]}
+            key={types[0]}
         />
     ));
 

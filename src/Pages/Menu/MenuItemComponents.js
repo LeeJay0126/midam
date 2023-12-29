@@ -1,14 +1,13 @@
 
-
 const MenuItemComponents = (props) => {
     return (
         <div className="MenuTypeComponents">
-            <img src={props.data[0]} className="MTCImage" alt={props.data[1]} />
+            <img src={require("../../Images/Menu/" + props.menuSrc)} className="MTCImage" alt={props.alt} />
             <h2 className="MTCPrice">
-                {props.data[3]}
+                {props.price}
             </h2>
-            <h2 className="MTCTitle">
-                {props.data[2]}
+            <h2 className="MTCHeading">
+                {props.dishName}
             </h2>
         </div>
     );
