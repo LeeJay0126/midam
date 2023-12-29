@@ -1,0 +1,19 @@
+/*
+    CSS for Menu Item Lists
+*/
+
+.MenuItemList, .MenuItemListSelected {
+    margin-bottom: 36px;
+    padding: 5px 20px 5px 20px;
+}
+
+.MenuItemType {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.MenuItemListSelected{
+    border-radius: 15px;
+    border: 1px solid #979797;
+    color: #979797;
+}
