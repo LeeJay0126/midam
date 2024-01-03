@@ -73,3 +73,101 @@
     font-size: 16px;
     font-weight: 700;
 }
+
+/*
+    Viewport for smaller phones (Iphone SE and etc)
+*/
+
+
+/*
+    Viewport for Ipad mini
+*/
+
+@media (max-width: 1279px) and (min-width: 1024px){
+    .Header {
+        max-width: 1280px;
+        height: 246px;
+    }
+    
+    .HeaderLogo {
+        height: 80px;
+    }
+    
+    .HeaderMenu {
+        height: 50px;
+        padding-right: 45px;
+    }
+    
+    /*
+        Mobile Slider Header Menu CSS
+    */
+    
+    .MobileSlideMenu {
+        width: 520px;
+        padding: 184px 0 0 62px;
+    }
+
+    .MSContainer {
+        height: 300px;
+    }
+    
+    .MSOptionContainer {
+        gap: 10px;
+    }
+    
+    .MSIcon {
+        width: 22px;
+    }
+    
+    .MSLabel {
+        font-size: 22px;
+        font-weight: 700;
+    }
+}
+
+
+/*
+    Viewport for Ipad mini
+*/
+
+@media (max-width: 1023px) and (min-width: 768px){
+    .Header {
+        max-width: 1024px;
+        height: 238px;
+    }
+    
+    .HeaderLogo {
+        height: 80px;
+    }
+    
+    .HeaderMenu {
+        height: 50px;
+        padding-right: 45px;
+    }
+    
+    /*
+        Mobile Slider Header Menu CSS
+    */
+    
+    .MobileSlideMenu {
+        width: 520px;
+        padding: 184px 0 0 62px;
+    }
+
+    .MSContainer {
+        height: 300px;
+    }
+    
+    .MSOptionContainer {
+        gap: 10px;
+    }
+    
+    .MSIcon {
+        width: 22px;
+    }
+    
+    .MSLabel {
+        font-size: 22px;
+        font-weight: 700;
+    }
+}
