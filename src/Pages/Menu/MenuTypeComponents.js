@@ -20,6 +20,12 @@ const MenuTypeComponents = (props) => {
         />
     ));
 
+    const secondaryHeader = (
+        <h3 className={isSelected ? "menuSecondaryHeader" : "menuSecondaryHeaderHidden"}>
+            {props.text}
+        </h3>
+    );
+
     return (
         <article className="MenuItemContainer">
             <div className={isSelected ? "MenuItemListSelected" : "MenuItemList"}>
@@ -27,7 +33,8 @@ const MenuTypeComponents = (props) => {
                     {props.menuType}
                 </h2>
             </div>
-            <section className={ isSelected ? "categoryItems" : "categoryItemsDefault"}>
+            {props.bool ? secondaryHeader : <div></div>}
+            <section className={isSelected ? "categoryItems" : "categoryItemsDefault"}>
                 {categoryItems}
             </section>
         </article>

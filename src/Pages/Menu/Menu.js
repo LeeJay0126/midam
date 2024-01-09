@@ -4,6 +4,7 @@ import Cutlery from "../../Images/Logos/cutlery.png";
 import MenuTypeList from "./MenuList/MenuTypeList";
 import MenuTypeComponents from "./MenuTypeComponents";
 import DessertTypeList from "./MenuList/DessertTypeList";
+import DrinkTypeList from "./MenuList/DrinkTypeList";
 
 const Menu = () => {
 
@@ -12,6 +13,8 @@ const Menu = () => {
         <MenuTypeComponents
             menuType={types[0]}
             data={types[1]}
+            bool={types[2]}
+            text={types[3]}
             key={types[0]}
         />
     ));
@@ -21,6 +24,18 @@ const Menu = () => {
         <MenuTypeComponents
             menuType={types[0]}
             data={types[1]}
+            bool={types[2]}
+            text={types[3]}
+            key={types[0]}
+        />
+    ));
+
+    const DrinkListings = DrinkTypeList.map((types) => (
+        <MenuTypeComponents
+            menuType={types[0]}
+            data={types[1]}
+            bool={types[2]}
+            text={types[3]}
             key={types[0]}
         />
     ));
@@ -45,6 +60,14 @@ const Menu = () => {
                         </h1>
                     </div>
                     {DessertListings}
+                </section>
+                <section className="DessertMenuContainer">
+                    <div className="MenuHeadingContainer">
+                        <h1 className="MenuHeading">
+                            DRINKS
+                        </h1>
+                    </div>
+                    {DrinkListings}
                 </section>
             </main>
         </section>
