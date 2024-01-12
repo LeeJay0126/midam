@@ -77,7 +77,7 @@ const MenuTypeList = [
         ["question.jpeg", "Picture of Vegetarian Tofu and Mushroom Bibimbap", "$18", "Vegetarian Tofu and Mushroom Bibimbap"],
     ], true, "Our Proud All Vegetarian Menu"],
     ["PASTA", [
-        ["RoseKFC.jpeg", "Picture of RoseKFC", "$35", "Rose Pasta with Korean Fried Chicken"],
+        ["RoseKFC.jpg", "Picture of RoseKFC", "$35", "Rose Pasta with Korean Fried Chicken"],
         ["RosePork.webp", "Picture of RosePork", "$25", "Rose Pasta with Grilled Fresh Pork Belly"],
         ["BBGCreamPasta.webp", "Picture of BBG Cream Pasta", "$25", "'Bulgogi' Cream Pasta"],
         ["Carbonara.webp", "Picture of Carbonara", "$35", "Carbonara Chicken"],
