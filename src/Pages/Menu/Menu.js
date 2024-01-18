@@ -6,6 +6,7 @@ import MenuTypeComponents from "./MenuTypeComponents";
 import DessertTypeList from "./MenuList/DessertTypeList";
 import DrinkTypeList from "./MenuList/DrinkTypeList";
 import MidamPlatter from "./MidamPlatter";
+import HanSang from "./HanSang";
 
 const Menu = () => {
 
@@ -53,6 +54,7 @@ const Menu = () => {
                         <img className="MenuHeadingIcon" src={Cutlery} alt="Cutlery icon for menu heading" />
                     </div>
                     <MidamPlatter />
+                    <HanSang/>
                     {MenuListings}
                 </section>
                 <section className="DessertMenuContainer">

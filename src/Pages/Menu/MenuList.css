@@ -110,3 +110,8 @@
 .HSPlatterOptions :last-child {
     padding-bottom: 20px;
 }
+
+.HSOptionList {
+    list-style: upper-alpha;
+    padding-bottom: 10px;
+}
