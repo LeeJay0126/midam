@@ -1,10 +1,11 @@
 import "./Menu.css";
-import Header from "../../SharedComponents/Header";
+import Header from "../../components/Header";
 import Cutlery from "../../Images/Logos/cutlery.png";
 import MenuTypeList from "./MenuList/MenuTypeList";
 import MenuTypeComponents from "./MenuTypeComponents";
 import DessertTypeList from "./MenuList/DessertTypeList";
 import DrinkTypeList from "./MenuList/DrinkTypeList";
+import MidamPlatter from "./MidamPlatter";
 
 const Menu = () => {
 
@@ -51,6 +52,7 @@ const Menu = () => {
                         </h1>
                         <img className="MenuHeadingIcon" src={Cutlery} alt="Cutlery icon for menu heading" />
                     </div>
+                    <MidamPlatter />
                     {MenuListings}
                 </section>
                 <section className="DessertMenuContainer">

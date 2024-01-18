@@ -83,3 +83,30 @@
 .MTCPrice {
     font-style: italic;
 }
+
+.HSPlatter {
+    width: 70vw;
+    border-radius: 15px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+.HSPlatterPrice {
+    font-size: 18px;
+    color: #979797;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+.HSPlatterOptionList {
+    list-style: decimal;
+    padding-bottom: 10px;
+}
+
+.HSPlatterOptions :last-child {
+    padding-bottom: 20px;
+}

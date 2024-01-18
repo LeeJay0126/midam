@@ -1,0 +1,173 @@
+/*
+    CSS for Header
+*/
+
+.Header {
+    max-width: 393px;
+    height: 134px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.HeaderLogo {
+    height: 38px;
+    width: auto;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.HeaderMenu {
+    height: 31.5px;
+    width: auto;
+    flex-shrink: 0;
+    cursor: pointer;
+    padding-right: 18.5px;
+    z-index: 3;
+}
+
+/*
+    Mobile Slider Header Menu CSS
+*/
+
+.MobileSlideMenu {
+    width: 320px;
+    height: 100vh;
+    background-color: #3F4045;
+    padding: 84px 0 0 31px;
+    color: white;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    transform: translate(100vw,0);
+    transition: all 0.4s;
+}
+
+.MBSlideMenuActive {
+    transform: translate(0px,0px);
+}
+
+.MSContainer {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline !important;
+}
+
+.MSOptionContainer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.MSIcon {
+    width: 15px;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.MSLabel {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/*
+    Viewport for smaller phones (Iphone SE and etc)
+*/
+
+
+/*
+    Viewport for Ipad mini
+*/
+
+@media (max-width: 1279px) and (min-width: 1024px){
+    .Header {
+        max-width: 1280px;
+        height: 246px;
+    }
+    
+    .HeaderLogo {
+        height: 80px;
+    }
+    
+    .HeaderMenu {
+        height: 50px;
+        padding-right: 45px;
+    }
+    
+    /*
+        Mobile Slider Header Menu CSS
+    */
+    
+    .MobileSlideMenu {
+        width: 520px;
+        padding: 184px 0 0 62px;
+    }
+
+    .MSContainer {
+        height: 300px;
+    }
+    
+    .MSOptionContainer {
+        gap: 10px;
+    }
+    
+    .MSIcon {
+        width: 22px;
+    }
+    
+    .MSLabel {
+        font-size: 22px;
+        font-weight: 700;
+    }
+}
+
+
+/*
+    Viewport for Ipad mini
+*/
+
+@media (max-width: 1023px) and (min-width: 768px){
+    .Header {
+        max-width: 1024px;
+        height: 238px;
+    }
+    
+    .HeaderLogo {
+        height: 80px;
+    }
+    
+    .HeaderMenu {
+        height: 50px;
+        padding-right: 45px;
+    }
+    
+    /*
+        Mobile Slider Header Menu CSS
+    */
+    
+    .MobileSlideMenu {
+        width: 520px;
+        padding: 184px 0 0 62px;
+    }
+
+    .MSContainer {
+        height: 300px;
+    }
+    
+    .MSOptionContainer {
+        gap: 10px;
+    }
+    
+    .MSIcon {
+        width: 22px;
+    }
+    
+    .MSLabel {
+        font-size: 22px;
+        font-weight: 700;
+    }
+}
