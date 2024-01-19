@@ -1,4 +1,5 @@
 import { useState } from "react"
+import spIcon from "../../Images/Logos/chilly.png";
 
 const MidamPlatter = () => {
     const [isSelected, setSelected] = useState(false);
@@ -28,12 +29,18 @@ const MidamPlatter = () => {
                 <li className="HSPlatterOptionList">
                     Bulgogi (Tender Beef)
                 </li>
-                <li className="HSPlatterOptionList">
-                    BBQ Pork Sirloin
-                </li>
-                <li className="HSPlatterOptionList">
-                    BBQ Squid and Pork Belly
-                </li>
+                <div className="HSPlatterSpIconContainer">
+                    <li className="HSPlatterOptionList">
+                        BBQ Pork Sirloin
+                    </li>
+                    <img src={spIcon} className="HSPlatterIcon" alt="spicy Icon for HS Platter" />
+                </div>
+                <div className="HSPlatterSpIconContainer">
+                    <li className="HSPlatterOptionList">
+                        BBQ Squid and Pork Belly
+                    </li>
+                    <img src={spIcon} className="HSPlatterIcon" alt="spicy Icon for HS Platter" />
+                </div>
             </ul>
         </article>
     );

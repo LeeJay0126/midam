@@ -17,6 +17,8 @@ const MenuTypeComponents = (props) => {
             price={item[2]}
             dishName={item[3]}
             key={item[3]}
+            spicy={item[4]}
+            veg={item[5]}
         />
     ));
 

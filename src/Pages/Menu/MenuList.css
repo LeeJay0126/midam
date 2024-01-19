@@ -115,3 +115,21 @@
     list-style: upper-alpha;
     padding-bottom: 10px;
 }
+
+.iconContainer {
+    display: flex;
+    position: relative;
+    bottom: 150px;
+    left: 55px;
+}
+
+.HSPlatterSpIconContainer {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.HSPlatterIcon{
+    padding-bottom: 10px !important;
+}
+
