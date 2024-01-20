@@ -5,11 +5,6 @@
 */
 
 const DessertTypeList = [
-    ["ADD ON", [
-        ["question.jpeg", "Ice Cream", "$3.5", "Add Icecream"],
-        ["question.jpeg", "Oreo Crumbs", "$2", "Add Oreo Crumbs"],
-        ["question.jpeg", "StrawBerry", "$2", "Add Strawberry"],
-    ], true, "Add ons for our dessert menu"],
     ["GRILLED RICECAKE", [
         ["question.jpeg", "Grilled Rice cake", "$7", "Grilled Ricecake served with Maple Syrup"],
         ["question.jpeg", "Grilled Rice cake churros", "$9", "Ricecake Churros served with a Vanilla Icecream"],

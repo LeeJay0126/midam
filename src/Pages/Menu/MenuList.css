@@ -117,10 +117,11 @@
 }
 
 .iconContainer {
-    display: flex;
     position: relative;
-    bottom: 150px;
+    bottom: 138px;
     left: 55px;
+    overflow: visible;
+    margin: -12px;
 }
 
 .HSPlatterSpIconContainer {
