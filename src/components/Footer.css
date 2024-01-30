@@ -1,0 +1,28 @@
+footer {
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+    padding-bottom: 20px;
+}
+
+.blackLine {
+    border-bottom: 0.5px black solid;
+    width: 20vw;
+    height: 1px;
+    opacity: 25%;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+footer h4 {
+    font-size: 2vw;
+    letter-spacing: 1px;
+    width: 40vw;
+    text-align: center;
+}

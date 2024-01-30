@@ -7,6 +7,7 @@ import DessertTypeList from "./MenuList/DessertTypeList";
 import DrinkTypeList from "./MenuList/DrinkTypeList";
 import MidamPlatter from "./MidamPlatter";
 import HanSang from "./HanSang";
+import Footer from "../../components/Footer";
 
 const Menu = () => {
 
@@ -74,6 +75,7 @@ const Menu = () => {
                     {DrinkListings}
                 </section>
             </main>
+            <Footer/>
         </section>
     );
 };

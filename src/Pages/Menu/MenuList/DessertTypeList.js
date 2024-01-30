@@ -6,9 +6,9 @@
 
 const DessertTypeList = [
     ["GRILLED RICECAKE", [
-        ["question.jpeg", "Grilled Rice cake", "$7", "Grilled Ricecake served with Maple Syrup"],
+        ["grilledricecake.jpg", "Grilled Rice cake", "$7", "Grilled Ricecake served with Maple Syrup"],
         ["question.jpeg", "Grilled Rice cake churros", "$9", "Ricecake Churros served with a Vanilla Icecream"],
-        ["question.jpeg", "Grilled Rice cake with 3 cheese", "$9", "Grilled Ricecake with Three Different Cheese"],
+        ["gricecakewcheese.jpg", "Grilled Rice cake with 3 cheese", "$9", "Grilled Ricecake with Three Different Cheese"],
     ], false],
     ["SHAVED ICE", [
         ["snowflake.webp", "original shavedice", "$14", "Snowflake Shaved Ice"],
@@ -28,7 +28,7 @@ const DessertTypeList = [
         ["question.jpeg", "Real Fruit Yogurt Smoothie", "$8", "Real Fruit Yogurt Smoothie (Strawberry)"],
     ], false],
     ["WAFFLES & TOAST", [
-        ["gtcro.webp", "Green Tea Cro-waffle", "$17", "Green Tea Cro-waffle & Green tea Icecream"],
+        ["crowaffle.JPG", "Green Tea Cro-waffle", "$17", "Cro-waffle with 3 Kinds Icecream"],
         ["question.jpeg", "Oreo Ricecake Waffle", "$12", "Oreo Ricecake Waffle Oreo Icecream"],
         ["sbcro.webp", "Strawberry Mochi Toast", "$15", "Strawberry Mochi Toast"],
         ["chocotoast.webp", "Chocolate Mochi Toast", "$15", "Chocolate Mochi Toast"],

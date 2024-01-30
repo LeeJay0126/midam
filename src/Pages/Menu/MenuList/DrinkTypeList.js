@@ -16,11 +16,11 @@ const DrinkTypeList = [
         ["blackberrywine.webp", "Bokbunja", "$18", "Blackberry Wine, 12%"],
     ]],
     ["RICE WINE", [
-        ["question.jpeg", "Original Ricewine", "$11", "Original Rice Wine, 6.5%"],
-        ["question.jpeg", "Chestnut Ricewine", "$11", "Chestnut Rice Wine, 6.5%"],
-        ["question.jpeg", "Citron Ricewine", "$11", "Citron Rice Wine,'   '6.5%"],
-        ["question.jpeg", "Green Grape Ricewine", "$11", "Green Grape Rice Wine,'   '6.5%"],
-        ["question.jpeg", "Strawberry Ricewine", "$15", "Strawberry Rice Wine, 6%"],
+        ["originalmgl.jpg", "Original Ricewine", "$11", "Original Rice Wine, 6.5%"],
+        ["chestnutmgl.jpg", "Chestnut Ricewine", "$11", "Chestnut Rice Wine, 6.5%"],
+        ["question.jpeg", "Citron Ricewine", "$11", "Citron Rice Wine, 6.5%"],
+        ["question.jpeg", "Green Grape Ricewine", "$11", "Green Grape Rice Wine, 6.5%"],
+        ["strawberrymgl.jpg", "Strawberry Ricewine", "$15", "Strawberry Rice Wine, 6%"],
     ], true, "locally brewed"],
     ["BEVERAGE", [
         ["milkis.webp", "Milkis", "$3.5", "Milkis"],
