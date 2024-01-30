@@ -7,7 +7,7 @@ const Footer = () => {
             <div className='blackLine'></div>
             <h4>
                 POWERED BY "
-                <a href='jayasen.com' rel='noreferrer'>
+                <a target='_blank' rel='noopener noreferrer' href='http://jayasen.com'>
                     Jay.Asen
                 </a>
                 " & "SALLY"
