@@ -38,7 +38,7 @@ const MenuTypeList = [
     ["NOODLES", [
         ["KimchiBaconUdon.webp", "Picture of Kimchi Bacon Udon", "$14", "Kimchi Bacon Yaki Udon", true],
         ["spSquidPorkbellyUdon.webp", "Picture of Sp BBQ Squid and Pork Yaki Udon", "$25", "Spicy BBQ Squid and Pork Belly Yaki Udon", true],
-        ["BBGUdon.webp", "Picture of BBG Yaki Udon", "$22", "Marinated Beef 'Bulgoki' Yaki Udon"],
+        ["BBGUdon.jpg", "Picture of BBG Yaki Udon", "$22", "Marinated Beef 'Bulgoki' Yaki Udon"],
         ["japchae.jpeg", "Picture of Japchae", "$24", "Potato Noodle 'Japchae'"],
         ["japchae.jpeg", "Picture of Truffle Japchae", "$27", "Truffle 'Japchae'"],
     ], false],
