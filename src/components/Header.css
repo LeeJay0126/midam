@@ -148,7 +148,7 @@
     }
     
     .desktopMenuOptions a {
-        font-size: 24px;
+        font-size: 20px;
         text-decoration: none;
         color: black;
         letter-spacing: 2px;
@@ -156,7 +156,7 @@
     }
     
     .hoveredMenuOptions a {
-        font-size: 24px;
+        font-size: 20px;
     }
 }
 

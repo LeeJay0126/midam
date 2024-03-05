@@ -134,3 +134,8 @@
     padding-bottom: 10px !important;
 }
 
+@media (min-width: 768px){
+    .HSPlatter {
+        width: 35vw;
+    }
+}
