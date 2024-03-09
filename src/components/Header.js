@@ -9,7 +9,7 @@ import Menu from '../Pages/Menu/Menu';
 
 const Header = () => {
     const [isActive, setActive] = useState(false);
-    const [isHovered, setHovered] = useState(false);
+    const [isHovered, setHovered] = useState(false); 
 
     const HeaderMenuHandler = () => {
         setActive(!isActive);
