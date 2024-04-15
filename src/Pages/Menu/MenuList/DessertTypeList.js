@@ -11,7 +11,7 @@ const DessertTypeList = [
         ["gricecakewcheese.jpg", "Grilled Rice cake with 3 cheese", "$9", "Grilled Ricecake with Three Different Cheese"],
     ], false],
     ["SHAVED ICE", [
-        ["snowflake.webp", "original shavedice", "$14", "Snowflake Shaved Ice"],
+        ["snowflake.webp", "original shavedice", "$14", "Red Bean Shaved Ice"],
         ["multigrain.webp", "Multi grain shavedice", "$16", "Multi-Grain Shaved Ice"],
         ["strawberryIce.webp", "Strawberry shavedice", "$15", "Strawberry Shortcake Shaved Ice"],
         ["oreoIce.webp", "Oreo shavedice", "$14", "Oreo Shaved Ice"],
