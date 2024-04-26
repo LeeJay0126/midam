@@ -1,6 +1,6 @@
 import './Header.css';
 import Logo from '../Images/Logos/logo.png';
-import HeaderMenu from '../Images/Logos/🦆 icon _hamburger button_.png';
+import HeaderMenu from '../Images/Logos/icon _hamburger button_.png';
 import MobileSlideMenu from './MobileSlideMenu';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
@@ -29,7 +29,7 @@ const Header = () => {
                 </li>
                 <li className={isHovered ? "hoveredMenuOptions" : "desktopMenuOptions"}>
                     <Link to="/broadway/menu" element={<Menu />}>
-                        Menu
+                        Location
                     </Link>
                 </li>
                 <li className={isHovered ? "hoveredMenuOptions" : "desktopMenuOptions"}>

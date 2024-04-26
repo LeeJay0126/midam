@@ -1,6 +1,6 @@
-import HomeMenu from '../Images/Logos/🦆 icon _home_.png';
-import Menu from '../Images/Logos/🦆 icon _fork spoon_.png';
-import Contact from '../Images/Logos/🦆 icon _phone_.png';
+import HomeMenu from '../Images/Logos/icon _home_.png';
+import Menu from '../Images/Logos/icon _fork spoon_.png';
+import Contact from '../Images/Logos/icon _phone_.png';
 import './Header.css';
 
 
