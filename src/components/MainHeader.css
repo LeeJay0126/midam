@@ -1,10 +1,37 @@
 
 .mainHeader {
     width: 100%;
-    height: 75px;
+    height: 50px;
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
 
 .mainHeaderUl {
     display: flex;
-    flex-direction: column;
+    gap: 20px;
+    padding: 10px 20px;
+}
+
+.mainHeaderLi {
+    list-style: none;
+}
+
+.mainHeaderSpan {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.mainHeaderLi a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.mainHeaderLi img {
+    color: white;
+    height: 16px;
+    width: auto;
 }

@@ -1,0 +1,21 @@
+.mainHero {
+    background-image: url(../../Images/Main/midamHeroImg.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 550px;
+}
+
+.logoBackground {
+    background-color: white;
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainLogo {
+    width: 240px;
+}

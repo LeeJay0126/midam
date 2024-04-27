@@ -11,15 +11,17 @@ import Menu from '../Pages/Menu/Menu';
 import './MainHeader.css';
 
 const MainHeader = () => {
-    <header className="mainHeader">
-        <ul className="mainHeaderUl">
-            <li className="mainHeaderLi">
-                <span className="mainHeaderSpan">
-                    <img src={homeIcon} alt='home' className='mainHeaderIcon' />
-                    <Link to="/" element={<Home />}>HOME</Link>
-                </span>
-            </li>
-            <li className="mainHeaderLi">
+
+    return (
+        <header className="mainHeader">
+            <ul className="mainHeaderUl">
+                <li className="mainHeaderLi">
+                    <span className="mainHeaderSpan">
+                        <img src={homeIcon} alt='home' className='mainHeaderIcon' />
+                        <Link to="/" element={<Home />}>HOME</Link>
+                    </span>
+                </li>
+                <li className="mainHeaderLi">
                 <span className="mainHeaderSpan">
                     <img src={menuIcon} alt='menu' className='mainHeaderIcon' />
                     <Link to="/broadway/menu" element={<Menu />}>MENU</Link>
@@ -43,8 +45,9 @@ const MainHeader = () => {
                     <Link to="/" element={<Home />}>DELIVERY</Link>
                 </span>
             </li>
-        </ul>
-    </header>
+            </ul>
+        </header>
+    );
 };
 
 export default MainHeader;
