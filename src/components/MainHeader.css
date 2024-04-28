@@ -21,7 +21,7 @@
 .mainHeaderSpan {
     display: flex;
     align-items: center;
-    gap: 3px;
+    gap: 4px;
 }
 
 .mainHeaderLi a {
@@ -32,6 +32,6 @@
 
 .mainHeaderLi img {
     color: white;
-    height: 16px;
+    height: 14px;
     width: auto;
 }
