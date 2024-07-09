@@ -28,6 +28,17 @@ const MobileSlideMenu = (props) => {
                     </h2>
                 </div>
             </main>
+            <aside className='tempInfo'>
+                <p className='tempInfoP'>
+                    3211 W Broadway, Vancouver, BC
+                </p>
+                <p className='tempInfoP'>
+                    V6K 2H5
+                </p>
+                <p className='tempInfoP'>
+                    (604) 714-0233
+                </p>
+            </aside>
         </section>
     );
 };

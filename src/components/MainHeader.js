@@ -18,7 +18,7 @@ const MainHeader = () => {
                 <li className="mainHeaderLi">
                     <span className="mainHeaderSpan">
                         <img src={homeIcon} alt='home' className='mainHeaderIcon' />
-                        <Link to="/" element={<Home />}>HOME</Link>
+                        <Link to="/" element={<Menu />}>HOME</Link>
                     </span>
                 </li>
                 <li className="mainHeaderLi">
@@ -30,13 +30,13 @@ const MainHeader = () => {
             <li className="mainHeaderLi">
                 <span className="mainHeaderSpan">
                     <img src={locationIcon} alt='location' className='mainHeaderIcon' />
-                    <Link to="/" element={<Home />}>LOCATION</Link>
+                    <Link to="/" element={<Menu />}>LOCATION</Link>
                 </span>
             </li>
             <li className="mainHeaderLi">
                 <span className="mainHeaderSpan">
                     <img src={contactIcon} alt='contact' className='mainHeaderIcon' />
-                    <Link to="/" element={<Home />}>CONTACT</Link>
+                    <Link to="/" element={<Menu />}>CONTACT</Link>
                 </span>
             </li>
             <li className="mainHeaderLi">
