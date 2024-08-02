@@ -23,7 +23,7 @@ const Header = () => {
         <div className='desktopMenu' onMouseEnter={onMenuHoverHandler} onMouseLeave={onMenuHoverHandler}>
             <ul>
                 <li className={isHovered ? "hoveredMenuOptions" : "desktopMenuOptions"}>
-                    <Link to="/" element={<Home />}>
+                    <Link to="/broadway/menu" element={<Menu />}>
                         Home
                     </Link>
                 </li>

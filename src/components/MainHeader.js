@@ -42,7 +42,7 @@ const MainHeader = () => {
             <li className="mainHeaderLi">
                 <span className="mainHeaderSpan">
                     <img src={deliveryIcon} alt='delivery' className='mainHeaderIcon' />
-                    <Link to="/" element={<Home />}>DELIVERY</Link>
+                    <Link to="/" element={<Menu />}>DELIVERY</Link>
                 </span>
             </li>
             </ul>
