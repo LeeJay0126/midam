@@ -1,0 +1,25 @@
+
+
+.AboutSection {
+    background-color: #140F09;
+    padding: 50px 10%;
+}
+
+.AboutUsHeading, .AboutUsMessage {
+    color: white;
+}
+
+.AboutUsHeading {
+    font-size: 36px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.AboutUsMessage {
+    font-family: 'sangju';
+    font-size: 18px;
+    line-height: 1.15;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
