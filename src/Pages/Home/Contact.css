@@ -1,0 +1,13 @@
+.contactHeading {
+    font-size: 36px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    color: white;
+}
+
+
+.contactSection {
+    background-color: #1e1e1e;
+    padding: 50px 10%;
+}
