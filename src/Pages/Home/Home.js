@@ -5,7 +5,6 @@ import AboutUs from "./AboutUs";
 import Location from "./Location";
 
 import './Home.css';
-import Contact from "./Contact";
 
 const Home = () => {
 
@@ -15,7 +14,6 @@ const Home = () => {
             <Hero/>
             <AboutUs/>
             <Location/>
-            <Contact/>
             <Footer/>
         </div>
     );

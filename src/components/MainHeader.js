@@ -39,12 +39,12 @@ const MainHeader = () => {
                     <Link to="/" element={<Menu />}>CONTACT</Link>
                 </span>
             </li>
-            <li className="mainHeaderLi">
+            {/* <li className="mainHeaderLi">
                 <span className="mainHeaderSpan">
                     <img src={deliveryIcon} alt='delivery' className='mainHeaderIcon' />
                     <Link to="/" element={<Menu />}>DELIVERY</Link>
                 </span>
-            </li>
+            </li> */}
             </ul>
         </header>
     );
