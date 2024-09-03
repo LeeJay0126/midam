@@ -4,7 +4,7 @@ import LocationPin from "../../Images/Logos/icon _location pin_.png";
 const Location = () => {
 
     return (
-        <section className="locationSection">
+        <section className="locationSection" id="location">
             <h2 className="locationHeading">
                 LOCATION
             </h2>
@@ -14,7 +14,7 @@ const Location = () => {
                     referrerPolicy="no-referrer-when-downgrade"
                     title="Google Map For Midam Cafe" className="locationMap">
                 </iframe>
-                <aside className="contactInfo">
+                <aside className="contactInfo" id="contact">
                     <h2 className="contactInfoHeading">
                         CONTACT US
                     </h2>
