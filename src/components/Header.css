@@ -109,19 +109,10 @@
     opacity: 100%;
 }
 
-/*
-    Temporary Styling. Removal necessary after further fix
-*/
-.tempInfo {
-    padding-top: 30px;
+.MSLabel a {
+    color: white;
+    text-decoration: none;
 }
-
-.tempInfoP {
-    padding-bottom: 5px;
-    font-size: 12px;
-}
-
-
 
 /*
     Viewport for Desktop
