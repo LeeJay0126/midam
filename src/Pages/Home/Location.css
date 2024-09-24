@@ -44,3 +44,41 @@
     font-weight: 400;
     padding-bottom: 20px;
 }
+
+@media (max-width: 768px) {
+    .locationSection {
+        padding: 50px 0;
+    }
+
+    .locationHeading {
+        font-size: 32px;
+    }
+
+    .locationMap {
+        height: 250px;
+    }
+
+    .contactDivider {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .contactInfo {
+        border-right: none;
+        padding: 0;
+    }
+
+    .contactInfoHeading {
+        letter-spacing: 1px;
+        font-weight: 500;
+        font-size: 32px;
+        padding-bottom: 30px;
+    }
+
+    .contactInfoList {
+        font-size: 18px;
+        font-weight: 500;
+        padding-bottom: 15px;
+    }
+}
